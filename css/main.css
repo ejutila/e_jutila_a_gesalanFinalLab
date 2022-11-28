@@ -58,11 +58,11 @@ header {
 
 input[type="checkbox"] { 
   margin-left: 5px; 
-  margin-right: 25px; 
+  margin-right: 30px; 
 }
 
 input[type="checkbox"]:checked + span::after {
-  content: "Voted!";
+  content: "Selected!";
   font-size: 14px;
   text-align: center;
 
@@ -183,17 +183,14 @@ footer {
   background-repeat: no-repeat;
 
   background-size: 55vh; /* 55% of the viewport height */
-  background-position: 40px bottom;
+  background-position: 50px, 50px;
 
   display: none;
 }
 
-
 #lightbox2 { background-image: url('../images/lightbox_iran.jpg'); }
 #lightbox3 { background-image: url('../images/lightbox_portugal.jpg_large'); }
 #lightbox4 { background-image: url('../images/lightbox_spain.jpg'); }
-
-
 
 .lightbox_close {
   position: relative;
